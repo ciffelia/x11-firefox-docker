@@ -8,8 +8,7 @@ services:
 addons:
   apt:
     packages:
-      - freeglut3-dev
-      - libglew-dev
+      - libgl1-mesa-dev
 
 before_script:
   - "export DISPLAY=:99.0"
