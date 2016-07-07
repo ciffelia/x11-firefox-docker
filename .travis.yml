@@ -8,7 +8,7 @@ services:
 addons:
   apt:
     packages:
-      - libgl1-mesa-dev
+      - libgl1-mesa-glx
 
 before_script:
   - "export DISPLAY=:99.0"
